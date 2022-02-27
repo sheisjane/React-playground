@@ -4,12 +4,14 @@ const Button = (props) => {
   return (
     <span
       style={{
-        padding: "5px 10px",
-        border: "1px solid red",
+        padding: "2px 10px",
+        color:"#eee",
+        // border: "1px solid red",
+        borderRadius :'10px',
         backgroundColor: "grey",
       }}
     >
-      {props.text}
+      {props.children}
     </span>
   );
 };

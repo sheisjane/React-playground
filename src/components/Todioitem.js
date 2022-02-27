@@ -4,11 +4,11 @@ import Button from "./Button";
 function TodoItem(props) {
   return (
     <li>
-      {props.text}
-      <Button text="Test"></Button>
-      <button>Complete</button>
-      <button>Delete</button>
-       <button>Complete</button>
+      <span style={{lineHeight:"2rem",paddingRight:"20px"}}>{props.text}</span>
+      <Button>Complete</Button>
+      <Button>Delet</Button>   
+      <Button>test</Button>      
+   
     </li>
   );
   // return React.createElement('li',{},'watch 123')

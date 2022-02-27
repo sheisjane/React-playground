@@ -1,13 +1,17 @@
 import TodoItem from "./components/Todioitem";
 
 function App() {
+  const todos = ['Watch Movie','Have dinner','Walk dogs'];
   return (
     <div>
       <h1>Todo App</h1>
       <ul>
-      <TodoItem text="Watch movie"></TodoItem>
+        {todos.map((todo) =>{
+          return <TodoItem text={todo}></TodoItem>
+        })}
+      {/* <TodoItem text="Watch movie"></TodoItem>
       <TodoItem text="Have dinner"></TodoItem>
-      <TodoItem text="Walk dogs"></TodoItem>
+      <TodoItem text="Walk dogs"></TodoItem> */}
       </ul>
     </div>
   );
