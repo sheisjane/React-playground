@@ -1,7 +1,6 @@
 import TodoItem from "./components/Todioitem";
 
 
-
 function App() {
   const todos = ['Watch Movie','Have dinner','Walk dogs'];
   return (
