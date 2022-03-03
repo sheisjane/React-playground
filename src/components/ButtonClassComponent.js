@@ -13,4 +13,4 @@ class ButtonClassComponent extends React.Component {
     }
 }
 
-expect default ButtonClassComponent;
+export default ButtonClassComponent;
