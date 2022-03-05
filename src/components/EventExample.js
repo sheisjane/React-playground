@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class EvebtExample extends Component {
+class EventExample extends Component {
     constructor(props) {
         super(props);
 
@@ -41,4 +41,4 @@ render(){
     )
 }
 }
-export default EvebtExample;
+export default EventExample;
