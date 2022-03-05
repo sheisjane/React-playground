@@ -8,7 +8,7 @@ import { Routes, Route, Link } from "react-router-dom";
 // import WorldClock from "./class-function-component/WorldClocks.js";
 // import LifeCycleExample from "./class-function-component/LifeCycleExample.js";
 // import LifeCycleExampleDad from "./class-function-component/LifeCycleExampleDad.js";
-import EventExample from "./class-function-component/EventExample.js";
+// import EventExample from "./class-function-component/EventExample.js";
 // import ListExample from "./list/ListExample.js";
 // import FormExample from "./form/FormExample.js";
 import Exchange from "./CurrencyExachange/Exchange.js";
@@ -42,7 +42,7 @@ function App() {
       {/* <WorldClock /> */}
       {/* <LifeCycleExample /> */}
       {/* <LifeCycleExampleDad /> */}
-      <EventExample />
+      {/* <EventExample /> */}
       {/* <ListExample /> */}
       {/* <FormExample/> */}
       {/* <Exchange /> */}
@@ -56,8 +56,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Exchange/>} />
-        <Route path="about" element={<FormExample/>} />
-        <Route path="event" element={<EventExample/>} />
+        {/* <Route path="about" element={<FormExample/>} /> */}
+        {/* <Route path="event" element={<EventExample/>} /> */}
       </Routes>
     </div>
   );
