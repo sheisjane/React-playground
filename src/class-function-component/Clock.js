@@ -20,7 +20,7 @@ class Clock extends React.Component {
         clearInterval(this.time);
     }
     render() {
-        console,log('Rending clock ${this.props.timeZone}');
+        console.log(`Rending clock ${this.props.timeZone}`);
         return (
             <div>
                 <span>Current time in {this.props.timeZone} is :{this.state.now}</span>

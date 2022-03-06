@@ -1,17 +1,19 @@
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import { Routes, Route, Link } from "react-router-dom";
+
 // import TodoItem from "./components/TodoItem.js";
 // import Card from './components/Card';
 // import StyleExample from "./style-example/StyleExample.js";
 // import ButtonClassComponent from "./class-function-component/ButtonClassComponent.js";
 // import ThemeEditor from "./class-function-component/ThemeEditor.js";
 // import Clock from "./class-function-component/Clock.js";
-// import WorldClock from "./class-function-component/WorldClocks.js";
+import WorldClock from "./class-function-component/WorldClocks.js";
 // import LifeCycleExample from "./class-function-component/LifeCycleExample.js";
 // import LifeCycleExampleDad from "./class-function-component/LifeCycleExampleDad.js";
 // import EventExample from "./class-function-component/EventExample.js";
 // import ListExample from "./list/ListExample.js";
 // import FormExample from "./form/FormExample.js";
-import Exchange from "./CurrencyExachange/Exchange.js";
+// import Exchange from "./CurrencyExachange/Exchange.js";
 // import Container from "./routes-mock/Container.js";
 
 function App() {
@@ -39,7 +41,7 @@ function App() {
       <ButtonClassComponent>Button without size</ButtonClassComponent> */}
 
       {/* <ThemeEditor theme="light" /> */}
-      {/* <WorldClock /> */}
+      <WorldClock />
       {/* <LifeCycleExample /> */}
       {/* <LifeCycleExampleDad /> */}
       {/* <EventExample /> */}
@@ -54,11 +56,11 @@ function App() {
         <Link to="/event">Event Example</Link>
       </div>
 
-      <Routes>
-        <Route path="/" element={<Exchange/>} />
+      {/* <Routes> */}
+        {/* <Route path="/" element={<Exchange/>} /> */}
         {/* <Route path="about" element={<FormExample/>} /> */}
         {/* <Route path="event" element={<EventExample/>} /> */}
-      </Routes>
+      {/* </Routes> */}
     </div>
   );
 }
