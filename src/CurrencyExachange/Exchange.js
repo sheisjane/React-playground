@@ -13,7 +13,7 @@ class Exchange extends Component {
 
     onAmountChange = (amount, currency) => {
         console.log(`Exchange knows `, amount, currency);
-        this.setState({ value: amount, currency: currency }): 
+        this.setState({ value: amount, currency: currency });
     }
 
     render() {
@@ -40,4 +40,3 @@ class Exchange extends Component {
     }
 
     export default Exchange;
-}
