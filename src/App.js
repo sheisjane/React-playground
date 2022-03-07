@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-// import { Routes, Route, Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
-// import TodoItem from "./components/TodoItem.js";
-// import Card from './components/Card';
-// import StyleExample from "./style-example/StyleExample.js";
-// import ButtonClassComponent from "./class-function-component/ButtonClassComponent.js";
+import TodoItem from "./components/TodoItem.js";
+import Card from './components/Card';
+import StyleExample from "./style-example/StyleExample.js";
+import ButtonClassComponent from "./class-function-component/ButtonClassComponent.js";
 // import ThemeEditor from "./class-function-component/ThemeEditor.js";
 // import Clock from "./class-function-component/Clock.js";
-import WorldClock from "./class-function-component/WorldClocks.js";
+// import WorldClock from "./class-function-component/WorldClocks.js";
 // import LifeCycleExample from "./class-function-component/LifeCycleExample.js";
 // import LifeCycleExampleDad from "./class-function-component/LifeCycleExampleDad.js";
 // import EventExample from "./class-function-component/EventExample.js";
@@ -20,7 +20,7 @@ function App() {
   // const todos = ['Wath Movie', 'Walk dogs', 'Have dinner'];
   return (
     <div>
-      {/* <h1>Todo App</h1>
+      <h1>Todo App</h1>
       <ul>
         {todos.map((todo) => {
           return <TodoItem text={todo}></TodoItem>
@@ -31,7 +31,7 @@ function App() {
       <Card imageUrl="https://picsum.photos/200/250" title="幸福来敲门" createdAt="一天前" rating="暂无评分"></Card>
       <Card imageUrl="" title="钢铁侠" createdAt="三天前" rating="8.6"></Card>
       <hr/>
-      <StyleExample/> */}
+      <StyleExample/>
 
       {/* <hr/>
       <h2>Function component vs Class component</h2>
@@ -41,7 +41,7 @@ function App() {
       <ButtonClassComponent>Button without size</ButtonClassComponent> */}
 
       {/* <ThemeEditor theme="light" /> */}
-      <WorldClock />
+      {/* <WorldClock /> */}
       {/* <LifeCycleExample /> */}
       {/* <LifeCycleExampleDad /> */}
       {/* <EventExample /> */}
@@ -50,11 +50,11 @@ function App() {
       {/* <Exchange /> */}
       {/* <Container /> */}
 
-      <div className="navbar">
+      {/* <div className="navbar">
         <Link to="/">Currency Exchange</Link>
         <Link to="/about">Form Example</Link>
         <Link to="/event">Event Example</Link>
-      </div>
+      </div> */}
 
       {/* <Routes> */}
         {/* <Route path="/" element={<Exchange/>} /> */}
