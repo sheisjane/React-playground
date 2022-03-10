@@ -1,15 +1,17 @@
 import React from "react";
 
 const Button = (props) => {
+  const primaryClass = props.primary ? 'primary' : '';
   return (
     <span
-      style={{
-        padding: "2px 10px",
-        color:"#eee",
-        // border: "1px solid red",
-        borderRadius :'10px',
-        backgroundColor: "grey",
-      }}
+    className={`button ${primaryClass}`}
+      // style={{
+      //   padding: "2px 10px",
+      //   color:"#eee",
+        
+      //   borderRadius :'10px',
+      //   backgroundColor: "grey",
+      // }}
     >
       {props.children}
     </span>
