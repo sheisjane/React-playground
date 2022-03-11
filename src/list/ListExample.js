@@ -15,8 +15,14 @@ class ListExample extends component {
     render() {
         return (
             <div>
-                
+                <ul>
+                    {this.state.todo.map((todo,index) => (
+                        <li key={index}>{todo}</li>
+                    ))}
+                </ul>
             </div>
         )
     }
 }
+
+export default ListExample;
